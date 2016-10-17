@@ -54,7 +54,7 @@ http {
       add_header Cache-Control no-cache;    
       #https?://(www|ic|backoffice).(us.)?(despegar(.com|.it)?|decolar.com).?(ar|cr|pe|mx|ec|co|uy|cl|us|ve)?
       add_header Access-Control-Allow-Origin *;
-      alias  /$1;
+      alias  /www/$1;
   }
     
 
